@@ -1,2 +1,3 @@
 # SOLID-API
  
+Studies case

@@ -1,0 +1,21 @@
+{
+  "name": "SOLID-API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "André Filipe <81587964+AF2B@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.7",
+    "typescript": "^4.7.4",
+    "uuidv4": "^6.2.13"
+  },
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/nodemailer": "^6.4.4",
+    "ts-node-dev": "^2.0.0"
+  }
+}
